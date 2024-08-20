@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "LegalFileControl.Infrastructure/1.0.0": {
+        "dependencies": {
+          "LegalFileControl.Application": "1.0.0",
+          "LegalFileControl.Domain": "1.0.0"
+        },
+        "runtime": {
+          "LegalFileControl.Infrastructure.dll": {}
+        }
+      },
+      "LegalFileControl.Application/1.0.0": {
+        "dependencies": {
+          "LegalFileControl.Domain": "1.0.0"
+        },
+        "runtime": {
+          "LegalFileControl.Application.dll": {}
+        }
+      },
+      "LegalFileControl.Domain/1.0.0": {
+        "runtime": {
+          "LegalFileControl.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LegalFileControl.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LegalFileControl.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LegalFileControl.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

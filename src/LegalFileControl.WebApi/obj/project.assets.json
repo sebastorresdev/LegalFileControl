@@ -1,0 +1,146 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "LegalFileControl.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "LegalFileControl.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/LegalFileControl.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LegalFileControl.Application.dll": {}
+        }
+      },
+      "LegalFileControl.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/LegalFileControl.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LegalFileControl.Domain.dll": {}
+        }
+      },
+      "LegalFileControl.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "LegalFileControl.Application": "1.0.0",
+          "LegalFileControl.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/LegalFileControl.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LegalFileControl.Infrastructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LegalFileControl.Application/1.0.0": {
+      "type": "project",
+      "path": "../LegalFileControl.Application/LegalFileControl.Application.csproj",
+      "msbuildProject": "../LegalFileControl.Application/LegalFileControl.Application.csproj"
+    },
+    "LegalFileControl.Domain/1.0.0": {
+      "type": "project",
+      "path": "../LegalFileControl.Domain/LegalFileControl.Domain.csproj",
+      "msbuildProject": "../LegalFileControl.Domain/LegalFileControl.Domain.csproj"
+    },
+    "LegalFileControl.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../LegalFileControl.Infrastructure/LegalFileControl.Infrastructure.csproj",
+      "msbuildProject": "../LegalFileControl.Infrastructure/LegalFileControl.Infrastructure.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "LegalFileControl.Application >= 1.0.0",
+      "LegalFileControl.Infrastructure >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\sebas\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Dev-Home\\Projects\\LegalFileControl\\src\\LegalFileControl.WebApi\\LegalFileControl.WebApi.csproj",
+      "projectName": "LegalFileControl.WebApi",
+      "projectPath": "D:\\Dev-Home\\Projects\\LegalFileControl\\src\\LegalFileControl.WebApi\\LegalFileControl.WebApi.csproj",
+      "packagesPath": "C:\\Users\\sebas\\.nuget\\packages\\",
+      "outputPath": "D:\\Dev-Home\\Projects\\LegalFileControl\\src\\LegalFileControl.WebApi\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\sebas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "D:\\Dev-Home\\Projects\\LegalFileControl\\src\\LegalFileControl.Application\\LegalFileControl.Application.csproj": {
+              "projectPath": "D:\\Dev-Home\\Projects\\LegalFileControl\\src\\LegalFileControl.Application\\LegalFileControl.Application.csproj"
+            },
+            "D:\\Dev-Home\\Projects\\LegalFileControl\\src\\LegalFileControl.Infrastructure\\LegalFileControl.Infrastructure.csproj": {
+              "projectPath": "D:\\Dev-Home\\Projects\\LegalFileControl\\src\\LegalFileControl.Infrastructure\\LegalFileControl.Infrastructure.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

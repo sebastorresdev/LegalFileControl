@@ -1,0 +1,11 @@
+D:\Dev-Home\Projects\LegalFileControl\src\LegalFileControl.Domain\bin\Debug\net8.0\LegalFileControl.Domain.deps.json
+D:\Dev-Home\Projects\LegalFileControl\src\LegalFileControl.Domain\bin\Debug\net8.0\LegalFileControl.Domain.dll
+D:\Dev-Home\Projects\LegalFileControl\src\LegalFileControl.Domain\bin\Debug\net8.0\LegalFileControl.Domain.pdb
+D:\Dev-Home\Projects\LegalFileControl\src\LegalFileControl.Domain\obj\Debug\net8.0\LegalFileControl.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev-Home\Projects\LegalFileControl\src\LegalFileControl.Domain\obj\Debug\net8.0\LegalFileControl.Domain.AssemblyInfoInputs.cache
+D:\Dev-Home\Projects\LegalFileControl\src\LegalFileControl.Domain\obj\Debug\net8.0\LegalFileControl.Domain.AssemblyInfo.cs
+D:\Dev-Home\Projects\LegalFileControl\src\LegalFileControl.Domain\obj\Debug\net8.0\LegalFileControl.Domain.csproj.CoreCompileInputs.cache
+D:\Dev-Home\Projects\LegalFileControl\src\LegalFileControl.Domain\obj\Debug\net8.0\LegalFileControl.Domain.dll
+D:\Dev-Home\Projects\LegalFileControl\src\LegalFileControl.Domain\obj\Debug\net8.0\refint\LegalFileControl.Domain.dll
+D:\Dev-Home\Projects\LegalFileControl\src\LegalFileControl.Domain\obj\Debug\net8.0\LegalFileControl.Domain.pdb
+D:\Dev-Home\Projects\LegalFileControl\src\LegalFileControl.Domain\obj\Debug\net8.0\ref\LegalFileControl.Domain.dll

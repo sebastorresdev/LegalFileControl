@@ -1,0 +1,15 @@
+D:\Dev-Home\Projects\LegalFileControl\src\LegalFileControl.Application\bin\Debug\net8.0\LegalFileControl.Application.deps.json
+D:\Dev-Home\Projects\LegalFileControl\src\LegalFileControl.Application\bin\Debug\net8.0\LegalFileControl.Application.dll
+D:\Dev-Home\Projects\LegalFileControl\src\LegalFileControl.Application\bin\Debug\net8.0\LegalFileControl.Application.pdb
+D:\Dev-Home\Projects\LegalFileControl\src\LegalFileControl.Application\obj\Debug\net8.0\LegalFileControl.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev-Home\Projects\LegalFileControl\src\LegalFileControl.Application\obj\Debug\net8.0\LegalFileControl.Application.AssemblyInfoInputs.cache
+D:\Dev-Home\Projects\LegalFileControl\src\LegalFileControl.Application\obj\Debug\net8.0\LegalFileControl.Application.AssemblyInfo.cs
+D:\Dev-Home\Projects\LegalFileControl\src\LegalFileControl.Application\obj\Debug\net8.0\LegalFileControl.Application.csproj.CoreCompileInputs.cache
+D:\Dev-Home\Projects\LegalFileControl\src\LegalFileControl.Application\obj\Debug\net8.0\LegalFileControl.Application.dll
+D:\Dev-Home\Projects\LegalFileControl\src\LegalFileControl.Application\obj\Debug\net8.0\refint\LegalFileControl.Application.dll
+D:\Dev-Home\Projects\LegalFileControl\src\LegalFileControl.Application\obj\Debug\net8.0\LegalFileControl.Application.pdb
+D:\Dev-Home\Projects\LegalFileControl\src\LegalFileControl.Application\obj\Debug\net8.0\ref\LegalFileControl.Application.dll
+D:\Dev-Home\Projects\LegalFileControl\src\LegalFileControl.Application\bin\Debug\net8.0\LegalFileControl.Domain.dll
+D:\Dev-Home\Projects\LegalFileControl\src\LegalFileControl.Application\bin\Debug\net8.0\LegalFileControl.Domain.pdb
+D:\Dev-Home\Projects\LegalFileControl\src\LegalFileControl.Application\obj\Debug\net8.0\LegalFileControl.Application.csproj.AssemblyReference.cache
+D:\Dev-Home\Projects\LegalFileControl\src\LegalFileControl.Application\obj\Debug\net8.0\LegalFil.B625D3C1.Up2Date
