@@ -33,7 +33,7 @@ public class UserService : IUserService
     {
         try
         {
-            var userList = await _userRepository.GetAll();
+            var userList = await _userRepository.GetAllAsync();
             var e = userList.ToList();
             e.ForEach(c =>
             {
