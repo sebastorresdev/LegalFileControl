@@ -3,6 +3,7 @@ using LegalFileControl.Domain.Interfaces;
 using LegalFileControl.Domain.Models;
 using LegalFileControl.Infrastructure.data;
 using LegalFileControl.Infrastructure.Repositories;
+using LegalFileControl.WebApi.Endpoints;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,24 +15,14 @@ builder.Services.AddDbContext<LegalFileControlDbContext>(options =>
     options.UseSqlServer(connectionString)
 );
 
+// repositorios
 builder.Services.AddTransient<IBaseRepository<User>, UserRepository>();
+
+// modulos
 builder.Services.AddScoped<IUserService, UserService>();
 
 var app = builder.Build();
 
-
-// prueba del servicio de usuarios
-app.MapGet("/usuarios", async (IUserService _userService) =>
-{
-    try
-    {
-        var response = await _userService.GetAll();
-        return Results.Ok(response);
-    }
-    catch (Exception ex)
-    {
-        return Results.NotFound($"Error: {ex.Message}");
-    }
-});
+app.MapUserEndpoints();
 
 app.Run();

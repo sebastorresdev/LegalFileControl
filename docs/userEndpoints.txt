@@ -1,0 +1,15 @@
+GET GetAll
+http://localhost:5168/usuarios
+
+GET GetById
+http://localhost:5168/usuarios/1
+
+POST Create
+http://localhost:5168/usuarios/crear
+
+PUT Update
+http://localhost:5168/usuarios/editar/id
+
+DELETE Delete
+http://localhost:5168/usuarios/eliminar/id
+

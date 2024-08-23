@@ -15,13 +15,12 @@ public class UserRepository(LegalFileControlDbContext dbContext, ILogger<UserRep
     private DbSet<User> UserModel => _dbContext.Set<User>();
     private readonly ILogger<UserRepository> _logger = logger;
 
-    public async Task<User> CreateAsync(User value)
+    public async Task CreateAsync(User value)
     {
         try
         {
             _dbContext.Add(value);
             await _dbContext.SaveChangesAsync();
-            return value;
         }
         catch (DbUpdateException dbEx)
         {
@@ -85,11 +84,11 @@ public class UserRepository(LegalFileControlDbContext dbContext, ILogger<UserRep
     }
 
 
-    public async Task<User?> GetByIdAsync(int id)
+    public async Task<User> GetByIdAsync(int id)
     {
         try
         {
-            return await UserModel.FirstAsync(u => u.Id == id);
+            return await UserModel.Include(u => u.Role).FirstAsync(u => u.Id == id);
         }
         catch (InvalidOperationException)
         {
@@ -108,13 +107,12 @@ public class UserRepository(LegalFileControlDbContext dbContext, ILogger<UserRep
         }
     }
 
-    public async Task<User> UpdateAsync(User value)
+    public async Task UpdateAsync(User value)
     {
         try
         {
             _dbContext.Update(value);
             await _dbContext.SaveChangesAsync();
-            return value;
         }
         catch (DbUpdateException dbEx)
         {

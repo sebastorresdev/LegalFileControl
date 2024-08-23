@@ -5,8 +5,9 @@ namespace LegalFileControl.Application.Services.Users;
 public interface IUserService
 {
     Task<List<UserDto>> GetAll();
-    // Task<SessionDto> ValidateCredentials(string email, string password);
-    Task<UserDto> Create(UserDto createUserDto);
-    Task<UserDto> Edit(UserDto updateUserDto, int id);
-    Task Delete(int Id);
+    //Task<SessionDto> ValidateCredentials(string email, string password);
+    Task<UserDto> GetById(int id);
+    Task Create(CreateUserDto createUserDto);
+    Task Update(UpdateUserDto updateUserDto, int id);
+    Task<int> Delete(int Id);
 }
